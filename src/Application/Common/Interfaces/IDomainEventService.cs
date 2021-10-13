@@ -1,7 +1,7 @@
-﻿using CleanArchitecture.Domain.Common;
+﻿using NextGen.Domain.Common;
 using System.Threading.Tasks;
 
-namespace CleanArchitecture.Application.Common.Interfaces
+namespace NextGen.Application.Common.Interfaces
 {
     public interface IDomainEventService
     {

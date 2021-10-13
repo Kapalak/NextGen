@@ -1,5 +1,5 @@
-using CleanArchitecture.Infrastructure.Identity;
-using CleanArchitecture.Infrastructure.Persistence;
+using NextGen.Infrastructure.Identity;
+using NextGen.Infrastructure.Persistence;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -9,7 +9,7 @@ using Microsoft.Extensions.Logging;
 using System;
 using System.Threading.Tasks;
 
-namespace CleanArchitecture.WebUI
+namespace NextGen.WebUI
 {
     public class Program
     {

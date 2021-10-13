@@ -1,7 +1,7 @@
-﻿using CleanArchitecture.Application.Common.Interfaces;
+﻿using NextGen.Application.Common.Interfaces;
 using System;
 
-namespace CleanArchitecture.Infrastructure.Services
+namespace NextGen.Infrastructure.Services
 {
     public class DateTimeService : IDateTime
     {

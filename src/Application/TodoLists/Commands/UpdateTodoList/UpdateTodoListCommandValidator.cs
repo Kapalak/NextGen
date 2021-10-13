@@ -1,11 +1,11 @@
-﻿using CleanArchitecture.Application.Common.Interfaces;
+﻿using NextGen.Application.Common.Interfaces;
 using FluentValidation;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace CleanArchitecture.Application.TodoLists.Commands.UpdateTodoList
+namespace NextGen.Application.TodoLists.Commands.UpdateTodoList
 {
     public class UpdateTodoListCommandValidator : AbstractValidator<UpdateTodoListCommand>
     {

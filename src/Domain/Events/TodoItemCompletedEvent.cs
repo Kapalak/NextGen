@@ -1,7 +1,7 @@
-﻿using CleanArchitecture.Domain.Common;
-using CleanArchitecture.Domain.Entities;
+﻿using NextGen.Domain.Common;
+using NextGen.Domain.Entities;
 
-namespace CleanArchitecture.Domain.Events
+namespace NextGen.Domain.Events
 {
     public class TodoItemCompletedEvent : DomainEvent
     {

@@ -1,7 +1,7 @@
-﻿using CleanArchitecture.Domain.Common;
+﻿using NextGen.Domain.Common;
 using MediatR;
 
-namespace CleanArchitecture.Application.Common.Models
+namespace NextGen.Application.Common.Models
 {
     public class DomainEventNotification<TDomainEvent> : INotification where TDomainEvent : DomainEvent
     {

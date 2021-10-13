@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CleanArchitecture.Domain.Exceptions
+namespace NextGen.Domain.Exceptions
 {
     public class UnsupportedColourException : Exception
     {

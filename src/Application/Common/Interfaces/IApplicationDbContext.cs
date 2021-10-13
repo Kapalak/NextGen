@@ -1,9 +1,9 @@
-﻿using CleanArchitecture.Domain.Entities;
+﻿using NextGen.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace CleanArchitecture.Application.Common.Interfaces
+namespace NextGen.Application.Common.Interfaces
 {
     public interface IApplicationDbContext
     {

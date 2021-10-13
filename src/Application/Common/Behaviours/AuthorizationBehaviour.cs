@@ -1,6 +1,6 @@
-﻿using CleanArchitecture.Application.Common.Exceptions;
-using CleanArchitecture.Application.Common.Interfaces;
-using CleanArchitecture.Application.Common.Security;
+﻿using NextGen.Application.Common.Exceptions;
+using NextGen.Application.Common.Interfaces;
+using NextGen.Application.Common.Security;
 using MediatR;
 using System;
 using System.Linq;
@@ -8,7 +8,7 @@ using System.Reflection;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace CleanArchitecture.Application.Common.Behaviours
+namespace NextGen.Application.Common.Behaviours
 {
     public class AuthorizationBehaviour<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
     {

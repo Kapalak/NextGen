@@ -1,15 +1,15 @@
-﻿using CleanArchitecture.Application.Common.Interfaces;
-using CleanArchitecture.Infrastructure.Files;
-using CleanArchitecture.Infrastructure.Identity;
-using CleanArchitecture.Infrastructure.Persistence;
-using CleanArchitecture.Infrastructure.Services;
+﻿using NextGen.Application.Common.Interfaces;
+using NextGen.Infrastructure.Files;
+using NextGen.Infrastructure.Identity;
+using NextGen.Infrastructure.Persistence;
+using NextGen.Infrastructure.Services;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace CleanArchitecture.Infrastructure
+namespace NextGen.Infrastructure
 {
     public static class DependencyInjection
     {
@@ -18,7 +18,7 @@ namespace CleanArchitecture.Infrastructure
             if (configuration.GetValue<bool>("UseInMemoryDatabase"))
             {
                 services.AddDbContext<ApplicationDbContext>(options =>
-                    options.UseInMemoryDatabase("CleanArchitectureDb"));
+                    options.UseInMemoryDatabase("NextGenDb"));
             }
             else
             {

@@ -1,7 +1,7 @@
-﻿using CleanArchitecture.Application.Common.Models;
+﻿using NextGen.Application.Common.Models;
 using System.Threading.Tasks;
 
-namespace CleanArchitecture.Application.Common.Interfaces
+namespace NextGen.Application.Common.Interfaces
 {
     public interface IIdentityService
     {

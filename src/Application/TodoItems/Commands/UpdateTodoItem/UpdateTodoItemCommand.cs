@@ -1,11 +1,11 @@
-﻿using CleanArchitecture.Application.Common.Exceptions;
-using CleanArchitecture.Application.Common.Interfaces;
-using CleanArchitecture.Domain.Entities;
+﻿using NextGen.Application.Common.Exceptions;
+using NextGen.Application.Common.Interfaces;
+using NextGen.Domain.Entities;
 using MediatR;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace CleanArchitecture.Application.TodoItems.Commands.UpdateTodoItem
+namespace NextGen.Application.TodoItems.Commands.UpdateTodoItem
 {
     public class UpdateTodoItemCommand : IRequest
     {

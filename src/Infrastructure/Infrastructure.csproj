@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <RootNamespace>CleanArchitecture.Infrastructure</RootNamespace>
-    <AssemblyName>CleanArchitecture.Infrastructure</AssemblyName>
+    <RootNamespace>NextGen.Infrastructure</RootNamespace>
+    <AssemblyName>NextGen.Infrastructure</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>

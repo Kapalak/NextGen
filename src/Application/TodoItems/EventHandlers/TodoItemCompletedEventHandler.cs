@@ -1,11 +1,11 @@
-﻿using CleanArchitecture.Application.Common.Models;
-using CleanArchitecture.Domain.Events;
+﻿using NextGen.Application.Common.Models;
+using NextGen.Domain.Events;
 using MediatR;
 using Microsoft.Extensions.Logging;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace CleanArchitecture.Application.TodoItems.EventHandlers
+namespace NextGen.Application.TodoItems.EventHandlers
 {
     public class TodoItemCompletedEventHandler : INotificationHandler<DomainEventNotification<TodoItemCompletedEvent>>
     {
@@ -20,7 +20,7 @@ namespace CleanArchitecture.Application.TodoItems.EventHandlers
         {
             var domainEvent = notification.DomainEvent;
 
-            _logger.LogInformation("CleanArchitecture Domain Event: {DomainEvent}", domainEvent.GetType().Name);
+            _logger.LogInformation("NextGen Domain Event: {DomainEvent}", domainEvent.GetType().Name);
 
             return Task.CompletedTask;
         }

@@ -1,10 +1,10 @@
-﻿using CleanArchitecture.Application.Common.Interfaces;
-using CleanArchitecture.Domain.Entities;
+﻿using NextGen.Application.Common.Interfaces;
+using NextGen.Domain.Entities;
 using MediatR;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace CleanArchitecture.Application.TodoLists.Commands.CreateTodoList
+namespace NextGen.Application.TodoLists.Commands.CreateTodoList
 {
     public class CreateTodoListCommand : IRequest<int>
     {

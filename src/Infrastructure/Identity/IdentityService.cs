@@ -1,12 +1,12 @@
-﻿using CleanArchitecture.Application.Common.Interfaces;
-using CleanArchitecture.Application.Common.Models;
+﻿using NextGen.Application.Common.Interfaces;
+using NextGen.Application.Common.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CleanArchitecture.Infrastructure.Identity
+namespace NextGen.Infrastructure.Identity
 {
     public class IdentityService : IIdentityService
     {

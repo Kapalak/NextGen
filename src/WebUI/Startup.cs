@@ -1,9 +1,9 @@
-using CleanArchitecture.Application;
-using CleanArchitecture.Application.Common.Interfaces;
-using CleanArchitecture.Infrastructure;
-using CleanArchitecture.Infrastructure.Persistence;
-using CleanArchitecture.WebUI.Filters;
-using CleanArchitecture.WebUI.Services;
+using NextGen.Application;
+using NextGen.Application.Common.Interfaces;
+using NextGen.Infrastructure;
+using NextGen.Infrastructure.Persistence;
+using NextGen.WebUI.Filters;
+using NextGen.WebUI.Services;
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -16,7 +16,7 @@ using NSwag;
 using NSwag.Generation.Processors.Security;
 using System.Linq;
 
-namespace CleanArchitecture.WebUI
+namespace NextGen.WebUI
 {
     public class Startup
     {
@@ -62,7 +62,7 @@ namespace CleanArchitecture.WebUI
 
             services.AddOpenApiDocument(configure =>
             {
-                configure.Title = "CleanArchitecture API";
+                configure.Title = "NextGen API";
                 configure.AddSecurity("JWT", Enumerable.Empty<string>(), new OpenApiSecurityScheme
                 {
                     Type = OpenApiSecuritySchemeType.ApiKey,

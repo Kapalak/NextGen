@@ -1,12 +1,12 @@
-﻿using CleanArchitecture.Application.Common.Interfaces;
-using CleanArchitecture.Application.Common.Models;
-using CleanArchitecture.Domain.Common;
+﻿using NextGen.Application.Common.Interfaces;
+using NextGen.Application.Common.Models;
+using NextGen.Domain.Common;
 using MediatR;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Threading.Tasks;
 
-namespace CleanArchitecture.Infrastructure.Services
+namespace NextGen.Infrastructure.Services
 {
     public class DomainEventService : IDomainEventService
     {

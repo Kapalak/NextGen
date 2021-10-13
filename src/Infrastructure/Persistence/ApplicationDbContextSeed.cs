@@ -1,11 +1,11 @@
-﻿using CleanArchitecture.Domain.Entities;
-using CleanArchitecture.Domain.ValueObjects;
-using CleanArchitecture.Infrastructure.Identity;
+﻿using NextGen.Domain.Entities;
+using NextGen.Domain.ValueObjects;
+using NextGen.Infrastructure.Identity;
 using Microsoft.AspNetCore.Identity;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CleanArchitecture.Infrastructure.Persistence
+namespace NextGen.Infrastructure.Persistence
 {
     public static class ApplicationDbContextSeed
     {
