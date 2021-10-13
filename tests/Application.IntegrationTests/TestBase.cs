@@ -5,6 +5,7 @@ namespace NextGen.Application.IntegrationTests
 {
     using static Testing;
 
+    [Category("IntegrationTests")]
     public class TestBase
     {
         [SetUp]

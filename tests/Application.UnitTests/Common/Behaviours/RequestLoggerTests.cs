@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace NextGen.Application.UnitTests.Common.Behaviours
 {
+    [Category("UnitTests")]
     public class RequestLoggerTests
     {
         private readonly Mock<ILogger<CreateTodoItemCommand>> _logger;

@@ -7,6 +7,7 @@ using System.Collections.Generic;
 
 namespace NextGen.Application.UnitTests.Common.Exceptions
 {
+    [Category("UnitTests")]
     public class ValidationExceptionTests
     {
         [Test]

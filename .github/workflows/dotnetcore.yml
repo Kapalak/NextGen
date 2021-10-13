@@ -19,7 +19,14 @@ jobs:
     - name: Build with dotnet
       run: dotnet build --configuration Release NextGen.sln
 
-  test:
+  unit-tests:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: run tests
+      run: dotnet test NextGen.sln --configuration Release --filter TestCategory=UnitTests
+
+  integration-tests:
     runs-on: ubuntu-latest
     services:
       sql:
@@ -32,6 +39,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: run tests
-      run: dotnet test NextGen.sln --configuration Release
+      run: dotnet test NextGen.sln --configuration Release --filter TestCategory=IntegrationTests
       env:
         ConnectionStrings__DefaultConnection: Server=.;Database=NextGenTestDb;User=sa;Password=Your_password123;MultipleActiveResultSets=true

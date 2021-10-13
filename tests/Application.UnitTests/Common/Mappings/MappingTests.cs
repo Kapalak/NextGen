@@ -8,6 +8,7 @@ using System.Runtime.Serialization;
 
 namespace NextGen.Application.UnitTests.Common.Mappings
 {
+    [Category("UnitTests")]
     public class MappingTests
     {
         private readonly IConfigurationProvider _configuration;

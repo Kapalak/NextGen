@@ -5,6 +5,7 @@ using NUnit.Framework;
 
 namespace NextGen.Domain.UnitTests.ValueObjects
 {
+    [Category("UnitTests")]
     public class ColourTests
     {
         [Test]
